@@ -1,0 +1,1 @@
+using GameLab.Enums;using GameLab.ScriptableObjects;using Unity.Cinemachine;using UnityEngine.Events;namespace GameLab.Events{    public static class CameraEvents    {        public static readonly UnityEvent<EScreenShakeSource> CameraShakeEvent  = new ();    }}

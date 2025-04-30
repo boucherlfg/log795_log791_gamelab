@@ -1,0 +1,36 @@
+@startuml
+participant GameMode
+participant Round
+participant Level
+participant Mementos
+participant Player
+participant Countdown
+participant Timer
+participant Goal
+
+GameMode -> GameMode : initialize
+GameMode -> GameMode : game started
+GameMode -> Round : initialize round
+Round -> Mementos : spawnMementos
+Round -> Level : place route
+Round -> Countdown : start countdown (event)
+Countdown -> Player : unlock movement (event)
+Countdown -> Timer : resume timer (event)
+
+alt goal is reached
+Goal -> GameMode : add point (event)
+GameMode -> 
+Goal -> Round : run ended (event)
+else goal is not reached
+Timer -> Round : run ended (event)
+Timer -> Goal : run ended (event)
+end alt
+Round -> Level : remove player
+
+Round -> Level : place player two
+Round -> Countdown : start countdown (event)
+Countdown -> Player : unlock movement (event)
+
+Countdown -> Timer : resume timer (event) 
+Round -> GameMode : end round (event)
+@enduml

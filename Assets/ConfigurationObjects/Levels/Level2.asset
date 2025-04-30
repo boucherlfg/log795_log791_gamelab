@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49b7894ca1e4a4eb9b56807cbc01fca, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  levelName: Explosive Race Arena
+  levelDifficulty: 2
+  levelImage: {fileID: 21300000, guid: 7469a3adbde232744ab3d519e7824f88, type: 3}
+  levelPrefab: {fileID: 4292847729799767744, guid: 30af96534c5c9fe4b9c0953b9d293cf8, type: 3}

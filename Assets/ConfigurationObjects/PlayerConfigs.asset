@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 536efc3473a54c6fbe47bff77ce5f3a0, type: 3}
+  m_Name: PlayerConfigs
+  m_EditorClassIdentifier: 
+  brightUI: {r: 0.86666673, g: 0.9921569, b: 1, a: 1}
+  regularUI: {r: 0.058823533, g: 0.9176471, b: 1, a: 1}
+  darkUI: {r: 0.09411766, g: 0.21960786, b: 0.4039216, a: 1}
+  player1UI: {r: 0.92549026, g: 0, b: 0, a: 1}
+  player2UI: {r: 0.08627451, g: 0.19607845, b: 0.69803923, a: 1}
+  yellowUI: {r: 0.9764706, g: 1, b: 0, a: 1}
+  grayUI: {r: 0.57254905, g: 0.654902, b: 0.65882355, a: 1}
+  materialsToLookFor:
+  - {fileID: 2100000, guid: 146aaa876aad0ef44a4e7957b30e5423, type: 2}
+  - {fileID: 2100000, guid: 226fbfeeafadaa644a3efef161095adb, type: 2}
+  playerHues:
+  - 0
+  - 6.5
+  playerColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  shadowColors:
+  - {r: 0.5, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.5, a: 1}
+  playerHeadIndex: 0000000000000000
+  tileEmissiveTintDefault: {r: 1, g: 1, b: 1, a: 0}
+  tileEmissiveTints:
+  - {r: 1, g: 0, b: 0.37254903, a: 0}
+  - {r: 0, g: 0.34509805, b: 1, a: 0}
+  tileMaskColorTintsDefault: {r: 1, g: 1, b: 1, a: 0}
+  tileMaskColorTints:
+  - {r: 0.7372549, g: 0, b: 0.25490198, a: 0}
+  - {r: 0.015686275, g: 0, b: 0.7176471, a: 0}
+  tileEmissive: 3
+  bumperDefaultMaterial: {fileID: 2100000, guid: 3608e2603b022bd4395cfb21789ed8bc, type: 2}
+  bumperMaterials:
+  - {fileID: 2100000, guid: edb24c3e1c91a884c98b6905847156d5, type: 2}
+  - {fileID: 2100000, guid: 4c4ea54cd9bfb244c8b5d819e4fa74dd, type: 2}
+  canonDefaultHue: 10
+  canonHues:
+  - -27.6
+  - 197
+  decalsSelectMaterials:
+  - {fileID: 2100000, guid: 2a5a2ec7494e5b44b8e5b23767969032, type: 2}
+  - {fileID: 2100000, guid: 7e563a61d04dd494b879ff2e88afa13b, type: 2}
+  emissionIntensities:
+  - 10
+  - 10
+  emissionTients:
+  - {r: 0.990566, g: 0.3882855, b: 0.3224012, a: 1}
+  - {r: 0.2756764, g: 0.5744561, b: 0.990566, a: 1}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dea1b467af549e084e234e30f0318ba, type: 3}
+  m_Name: GameConfigColor
+  m_EditorClassIdentifier: 
+  roundCount: 5
+  bonusForFirstPlayer: 5
+  startCountDown: 3
+  endCountDown: 2
+  level: {fileID: 4292847729799767744, guid: 5f8678ff93fae85449c0e6e5c78bf19d, type: 3}
+  startRoundUITime: 5
+  endRoundUITime: 3
+  potentialScorePerRound:
+  - potetialPoints: 0
+    message: 'Tips : Color the tiles'
+  - potetialPoints: 1
+    message: 'Tips : AI bots moves on your previous paths'
+  - potetialPoints: 1
+    message: 'Tips : Color an AI Bot to give it your color'
+  - potetialPoints: 1
+    message: 'Tips : Use dash to color AI bots'
+  - potetialPoints: 2
+    message: 'Tips : Generate a burst of color upon landing'
